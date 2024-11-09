@@ -1,0 +1,3 @@
+2024-11-08 23:26:11.199574+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "company" not found (this database is empty); SQL statement:
+select c1_0."id",c1_0."name" from "company" c1_0 [42104-224]
