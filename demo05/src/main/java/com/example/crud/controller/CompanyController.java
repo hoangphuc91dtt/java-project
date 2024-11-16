@@ -53,4 +53,10 @@ public class CompanyController {
         companyService.delete(id);
         return "redirect:/companies";
     }
+
+    @GetMapping("/addUser")
+    public String addUser() {
+        return "add_user"; // This page will be accessible only to authenticated users with the ADMIN role
+    }
+
 }
